@@ -3,106 +3,122 @@
 
 # Dr. Sajida Adnan
 ### MBBS, FCPS (UK)
+**CONSULTANT GYNAECOLOGIST**
 
-**Women's Health — Safe, Healthy, Happy**
+Women's Health • Compassionate Care • Online Consultation
 
-<img src="images/gynaecology-consultation.png" alt="Gynaecology Consultation" width="220">
+<img src="images/gynaecology-consultation.png" alt="Gynaecology consultation" width="200" />
 
-*Professional Online Gynaecology Consultation*
+### Your Health, Our Priority 💗
 
-Get professional guidance for women's health concerns from the comfort and privacy of your home.
+Professional online gynaecology consultations from the comfort of your home.
 
----
-
-## Online Consultation Fee
-
-# PKR 1,000/-
-
-**Online WhatsApp Mashwara**
-
-[**Book Your Consultation on WhatsApp**](https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20gynaecology%20consultation%20with%20Dr.%20Sajida%20Adnan)
-
----
-
-📍 **Clinic Address**
-
-Al Raziq Garden, Sharaqpur Road, Lahore, Pakistan
-
-📞 **Phone / WhatsApp**
-
-[0320 8493304](https://wa.me/923208493304)
+[**BOOK ONLINE VIA WHATSAPP**](https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20want%20to%20book%20an%20online%20consultation%20with%20Dr.%20Sajida%20Adnan)
 
 </div>
 
 ---
 
-## 🌸 5 Key Features of Our Consultation
+<div align="center">
 
-### 1. Expert Gynaecological Guidance
-Professional guidance for women's health concerns based on symptoms and medical history.
+## 💗 ONLINE CONSULTATION FEE
 
-### 2. Privacy and Confidentiality
-Discuss sensitive concerns in a respectful and confidential consultation environment.
+# PKR 1,000/-
 
-### 3. Convenient Online Appointments
-Consult from home through WhatsApp without travelling for every discussion.
+**Consultation Type:** Online WhatsApp Mashwara
 
-### 4. Personalized Advice and Follow-up
-Receive individualized recommendations, appropriate investigation guidance, and follow-up advice.
+[**📲 CONTACT NOW: 0320 8493304**](https://wa.me/923208493304)
 
-### 5. Comprehensive Women's Health Support
-Guidance for common gynaecological concerns, including menstrual problems, PCOS, hormonal issues, pregnancy-related questions, infertility concerns, and menopause.
+</div>
 
 ---
 
-## 🩺 Our Online Consultation Services
+## 👩‍⚕️ Welcome to Our Women's Health Service
 
-| Service | Support |
+Dr. Sajida Adnan provides online consultation and guidance for women's health concerns. Our goal is to help women understand their symptoms, explore appropriate care options, and learn when an in-person examination is necessary.
+
+## 🌸 Five Key Features
+
+| No. | Feature | What You Receive |
+|:---:|---|---|
+| 01 | Expert Guidance | Professional advice based on your symptoms and medical history |
+| 02 | Privacy & Confidentiality | Respectful discussion of sensitive health concerns |
+| 03 | Convenient Online Care | Consult from home through WhatsApp |
+| 04 | Personalized Advice | Individual recommendations and follow-up guidance |
+| 05 | Women's Health Support | Guidance for common gynaecological concerns |
+
+---
+
+## 🩺 Online Consultation Services
+
+| Women's Health Concern | Consultation Support |
 |---|---|
-| Menstrual Health | Irregular periods and menstrual concerns |
-| PCOS & Hormonal Health | Guidance for hormonal imbalance |
-| Pregnancy Care | Pregnancy-related questions |
-| Fertility Support | Fertility and infertility concerns |
-| Menopause Care | Menopause and associated symptoms |
-| Gynaecological Health | Vaginal discharge and common concerns |
-| Preventive Care | General women's health counselling |
+| Menstrual Problems | Irregular periods and menstrual concerns |
+| PCOS | Polycystic ovary syndrome and related concerns |
+| Hormonal Health | Guidance on possible hormonal imbalance |
+| Pregnancy | Pregnancy-related questions and guidance |
+| Fertility | Fertility and infertility concerns |
+| Vaginal Health | Guidance for common symptoms and concerns |
+| Menopause | Symptoms and health concerns during menopause |
+| Preventive Health | General women's health counselling |
+
+*The suitability of online consultation depends on your symptoms and clinical circumstances.*
 
 ---
 
 ## 📲 How to Book Your Consultation
 
-1. Click the WhatsApp booking link.
-2. Send a message to request an appointment.
-3. Briefly describe your concern and preferred appointment time.
-4. Follow the consultation and payment instructions.
-5. Receive appropriate medical guidance and follow-up advice.
+**Step 1:** Open the WhatsApp booking link.
+
+**Step 2:** Send a message requesting an appointment.
+
+**Step 3:** Share a brief description of your concern privately.
+
+**Step 4:** Confirm the appointment and follow the payment instructions.
+
+**Step 5:** Receive appropriate guidance and follow-up advice.
 
 <div align="center">
 
-### Your Health, Our Priority 💗
-
-[**💬 Consult Dr. Sajida Adnan on WhatsApp**](https://wa.me/923208493304)
-
-**Consultation Fee: PKR 1,000/-**
-
-Al Raziq Garden, Sharaqpur Road, Lahore
+[**💬 START YOUR WHATSAPP CONSULTATION**](https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20gynaecology%20consultation.)
 
 </div>
 
 ---
 
-## ⚕️ Important Medical Notice
+## 📍 Clinic Location & Contact
 
-Online consultations cannot replace every physical examination, diagnostic investigation, or emergency assessment. Treatment recommendations depend on individual clinical circumstances, and no online service can guarantee resolution of every condition.
+**Doctor:** Dr. Sajida Adnan
 
-Seek urgent medical care for severe pelvic pain, heavy bleeding, fainting, or pregnancy-related emergencies.
+**Qualifications:** MBBS, FCPS (UK)
+
+**Address:** Al Raziq Garden, Sharaqpur Road, Lahore, Pakistan
+
+**Phone / WhatsApp:** 0320 8493304
+
+**Consultation Fee:** PKR 1,000/-
+
+**Consultation Method:** Online WhatsApp Mashwara
+
+[**Contact on WhatsApp**](https://wa.me/923208493304)
+
+---
+
+## ⚕️ Important Medical Information
+
+Online consultation cannot replace every physical examination, diagnostic test, or emergency assessment. Treatment recommendations depend on individual clinical circumstances, and no online service can guarantee resolution of every condition.
+
+For severe pelvic pain, heavy bleeding, fainting, or pregnancy-related emergencies, seek urgent medical care.
 
 ---
 
 <div align="center">
 
-**Dr. Sajida Adnan | MBBS, FCPS (UK)**
+### Dr. Sajida Adnan
+**MBBS, FCPS (UK)**
 
-*Women's Health • Online Gynaecology Consultation*
+*Dedicated to Women's Health and Wellbeing* 💗
+
+[WhatsApp Consultation](https://wa.me/923208493304)
 
 </div>
