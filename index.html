@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Online gynaecology consultations with Dr. Sajida Adnan, MBBS, FCPS (UK). WhatsApp consultations for women's health.">
+  <title>Dr. Sajida Adnan | Gynaecology & Women's Health</title>
+  <style>
+    :root {
+      --pink: #d93670;
+      --pink-dark: #b92359;
+      --pink-light: #fff0f5;
+      --rose: #f9dbe6;
+      --navy: #20264d;
+      --muted: #626b80;
+      --white: #ffffff;
+      --border: #f0dce5;
+      --shadow: 0 14px 36px rgba(67, 30, 58, .09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--navy);
+      background: #fffafd;
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    .container { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .topbar { background: var(--navy); color: white; font-size: .9rem; }
+    .topbar-inner { min-height: 38px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 6px 0; }
+    .topbar a { color: white; text-decoration: none; }
+    header { background: rgba(255,255,255,.94); border-bottom: 1px solid var(--border); }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 17px 0; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .brand-mark { width: 46px; height: 46px; border-radius: 50%; background: var(--pink-light); display: grid; place-items: center; color: var(--pink); font-size: 1.5rem; }
+    .brand strong { display: block; font-size: 1.08rem; line-height: 1.25; }
+    .brand small { display: block; color: var(--muted); font-size: .78rem; }
+    .nav-link { color: var(--navy); text-decoration: none; font-weight: 700; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; border-radius: 999px; background: var(--pink); color: white; text-decoration: none; font-weight: 800; padding: 13px 21px; box-shadow: 0 8px 20px rgba(217,54,112,.2); transition: transform .2s, background .2s; }
+    .btn:hover { background: var(--pink-dark); transform: translateY(-1px); }
+    .btn-outline { background: white; color: var(--pink-dark); border: 1px solid var(--rose); box-shadow: none; }
+    .hero { padding: 54px 0 42px; background: radial-gradient(circle at 85% 15%, #ffe4ee 0, transparent 30%), linear-gradient(135deg, #fff8fb, #fff); }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 46px; }
+    .eyebrow { display: inline-block; color: var(--pink-dark); background: var(--pink-light); border: 1px solid var(--rose); border-radius: 999px; padding: 6px 12px; font-size: .82rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+    h1 { margin: 17px 0 8px; font-size: clamp(2.25rem, 5vw, 3.8rem); line-height: 1.08; letter-spacing: -.045em; }
+    h1 span { color: var(--pink); }
+    .credentials { margin: 0 0 18px; color: var(--muted); font-size: 1.1rem; font-weight: 700; }
+    .hero p { max-width: 620px; color: var(--muted); font-size: 1.05rem; }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    .photo-card { background: white; padding: 14px; border-radius: 28px; box-shadow: var(--shadow); border: 1px solid var(--border); position: relative; }
+    .photo-card img { display: block; width: 100%; height: 360px; object-fit: cover; border-radius: 20px; background: var(--pink-light); }
+    .photo-note { display: flex; align-items: center; gap: 12px; padding: 14px 8px 3px; }
+    .photo-note .heart { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--pink-light); color: var(--pink); font-size: 1.3rem; }
+    .photo-note strong { display: block; }
+    .photo-note small { color: var(--muted); }
+    .fee-wrap { margin-top: -3px; position: relative; }
+    .fee-card { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 23px 28px; background: var(--pink); color: white; border-radius: 20px; box-shadow: 0 15px 32px rgba(217,54,112,.2); }
+    .fee-label { font-weight: 700; opacity: .95; }
+    .fee-amount { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.2; font-weight: 900; white-space: nowrap; }
+    .section { padding: 64px 0; }
+    .section-soft { background: #fff2f7; }
+    .section-heading { text-align: center; max-width: 700px; margin: 0 auto 34px; }
+    .section-heading h2 { margin: 0 0 10px; font-size: clamp(1.7rem, 3vw, 2.45rem); letter-spacing: -.03em; }
+    .section-heading p { margin: 0; color: var(--muted); }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .feature { background: white; padding: 25px; border: 1px solid var(--border); border-radius: 18px; box-shadow: 0 7px 22px rgba(67,30,58,.04); }
+    .feature-icon { width: 48px; height: 48px; display: grid; place-items: center; background: var(--pink-light); border-radius: 14px; font-size: 1.4rem; margin-bottom: 14px; }
+    .feature h3 { margin: 0 0 7px; font-size: 1.08rem; }
+    .feature p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .service { padding: 19px 16px; border-radius: 16px; border: 1px solid var(--border); background: white; }
+    .service span { display: block; font-size: 1.35rem; margin-bottom: 7px; }
+    .service strong { display: block; line-height: 1.35; }
+    .service small { display: block; margin-top: 6px; color: var(--muted); }
+    .booking { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; align-items: stretch; }
+    .booking-panel { padding: 30px; border-radius: 22px; background: white; border: 1px solid var(--border); box-shadow: var(--shadow); }
+    .booking-panel h2 { margin-top: 0; }
+    .steps { list-style: none; counter-reset: step; padding: 0; margin: 20px 0 0; }
+    .steps li { counter-increment: step; display: flex; align-items: flex-start; gap: 12px; margin: 15px 0; color: var(--muted); }
+    .steps li::before { content: counter(step); flex: 0 0 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--pink-light); color: var(--pink-dark); font-weight: 800; }
+    .contact-list { list-style: none; padding: 0; margin: 18px 0 24px; }
+    .contact-list li { padding: 12px 0; border-bottom: 1px solid #f5e8ee; }
+    .contact-list strong { display: block; }
+    .contact-list span, .contact-list a { color: var(--muted); text-decoration: none; overflow-wrap: anywhere; }
+    .notice { margin-top: 24px; padding: 18px 20px; border-left: 4px solid #e2a23a; background: #fff9ec; color: #65502d; border-radius: 10px; font-size: .92rem; }
+    footer { padding: 28px 0; background: var(--navy); color: white; text-align: center; }
+    footer p { margin: 5px 0; }
+    footer small { color: #d9dced; }
+    .sticky-whatsapp { position: fixed; right: 18px; bottom: 18px; z-index: 10; border-radius: 999px; padding: 13px 18px; background: #168b53; color: white; font-weight: 800; text-decoration: none; box-shadow: 0 8px 25px rgba(0,0,0,.18); }
+    @media (max-width: 820px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 28px; }
+      .photo-card { max-width: 500px; width: 100%; margin: 0 auto; }
+      .photo-card img { height: 300px; }
+      .feature-grid { grid-template-columns: repeat(2, 1fr); }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .booking { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .container { width: min(100% - 24px, 1120px); }
+      .topbar-inner { justify-content: center; text-align: center; }
+      .nav { padding: 13px 0; }
+      .nav .btn { padding: 10px 13px; font-size: .84rem; }
+      .hero { padding: 36px 0 30px; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .fee-card { align-items: flex-start; flex-direction: column; padding: 22px; gap: 8px; }
+      .section { padding: 46px 0; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .service { padding: 14px 12px; }
+      .booking-panel { padding: 22px; }
+      .sticky-whatsapp { right: 12px; bottom: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Women's Health • Compassionate Care</span>
+      <a href="https://wa.me/923208493304">WhatsApp: 0320 8493304</a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Dr. Sajida Adnan home">
+        <span class="brand-mark" aria-hidden="true">✿</span>
+        <span><strong>Dr. Sajida Adnan</strong><small>MBBS, FCPS (UK) · Gynaecology</small></span>
+      </a>
+      <a class="btn" href="https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20consultation.">Book Consultation</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Online Gynaecology Consultation</span>
+          <h1>Care for every stage of <span>womanhood.</span></h1>
+          <p class="credentials">Dr. Sajida Adnan · MBBS, FCPS (UK)</p>
+          <p>Get thoughtful guidance for women's health concerns from the comfort of home through an online WhatsApp consultation.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20gynaecology%20consultation%20with%20Dr.%20Sajida%20Adnan.">💬 Book via WhatsApp</a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="photo-card">
+          <img src="images/gynaecology-consultation.png" alt="Gynaecology and women's health consultation" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=85';">
+          <div class="photo-note">
+            <span class="heart" aria-hidden="true">♡</span>
+            <span><strong>Your health matters.</strong><small>Respectful, patient-focused guidance</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container fee-wrap" aria-label="Consultation fee">
+      <div class="fee-card">
+        <div><div class="fee-label">Online Consultation Fee</div><div>WhatsApp Mashwara</div></div>
+        <div class="fee-amount">PKR 1,000/-</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What you can expect</h2>
+          <p>Five helpful features designed to make online women's healthcare more accessible.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><div class="feature-icon">🩺</div><h3>Professional Guidance</h3><p>Discuss symptoms and receive guidance on suitable next steps based on your health history.</p></article>
+          <article class="feature"><div class="feature-icon">🔒</div><h3>Privacy & Respect</h3><p>Talk about sensitive health concerns in a respectful consultation setting.</p></article>
+          <article class="feature"><div class="feature-icon">📱</div><h3>Convenient Online Care</h3><p>Connect from home through WhatsApp without travelling for every discussion.</p></article>
+          <article class="feature"><div class="feature-icon">📝</div><h3>Personalized Advice</h3><p>Receive recommendations and follow-up guidance appropriate to your situation.</p></article>
+          <article class="feature"><div class="feature-icon">🌷</div><h3>Women's Health Support</h3><p>Discuss common menstrual, hormonal, fertility, pregnancy-related and menopause concerns.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Women's health services</h2>
+          <p>Online guidance for a range of common gynaecological concerns. An in-person examination may be needed in some cases.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service"><span>🌸</span><strong>Menstrual Health</strong><small>Irregular periods and menstrual concerns</small></div>
+          <div class="service"><span>⚖️</span><strong>PCOS & Hormones</strong><small>PCOS and hormonal health questions</small></div>
+          <div class="service"><span>🤰</span><strong>Pregnancy Guidance</strong><small>Pregnancy-related questions</small></div>
+          <div class="service"><span>💗</span><strong>Fertility Support</strong><small>Fertility and infertility concerns</small></div>
+          <div class="service"><span>🌷</span><strong>Menopause Care</strong><small>Symptoms and wellbeing support</small></div>
+          <div class="service"><span>🩺</span><strong>Vaginal Health</strong><small>Guidance for common symptoms</small></div>
+          <div class="service"><span>♡</span><strong>Preventive Health</strong><small>General women's health counselling</small></div>
+          <div class="service"><span>💬</span><strong>Follow-up Advice</strong><small>Next steps and follow-up when appropriate</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container booking">
+        <div class="booking-panel">
+          <h2>How to book</h2>
+          <p style="color:var(--muted)">Booking your online consultation is simple.</p>
+          <ol class="steps">
+            <li>Open the WhatsApp booking link.</li>
+            <li>Request an appointment and share a preferred time.</li>
+            <li>Briefly describe your concern in a private message.</li>
+            <li>Confirm the appointment and follow payment instructions.</li>
+            <li>Receive appropriate consultation and follow-up guidance.</li>
+          </ol>
+          <a class="btn" href="https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20consultation%20with%20Dr.%20Sajida%20Adnan.">Start WhatsApp Booking</a>
+        </div>
+        <div class="booking-panel">
+          <h2>Clinic & contact</h2>
+          <ul class="contact-list">
+            <li><strong>Doctor</strong><span>Dr. Sajida Adnan</span></li>
+            <li><strong>Qualifications</strong><span>MBBS, FCPS (UK)</span></li>
+            <li><strong>Address</strong><span>Al Raziq Garden, Sharaqpur Road, Lahore, Pakistan</span></li>
+            <li><strong>Phone / WhatsApp</strong><a href="https://wa.me/923208493304">0320 8493304</a></li>
+            <li><strong>Online consultation fee</strong><span>PKR 1,000/-</span></li>
+          </ul>
+          <a class="btn btn-outline" href="https://wa.me/923208493304">Contact on WhatsApp</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="notice"><strong>Medical notice:</strong> Online consultations cannot replace every physical examination, diagnostic test, or emergency assessment. Treatment recommendations depend on individual clinical circumstances, and no online service can guarantee resolution of every condition. For severe pelvic pain, heavy bleeding, fainting, or pregnancy-related emergencies, seek urgent medical care.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Dr. Sajida Adnan · MBBS, FCPS (UK)</strong></p>
+      <p>Gynaecology & Women's Health</p>
+      <small>Al Raziq Garden, Sharaqpur Road, Lahore · Online WhatsApp Mashwara</small>
+    </div>
+  </footer>
+
+  <a class="sticky-whatsapp" href="https://wa.me/923208493304?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20book%20an%20online%20consultation." aria-label="Book a consultation on WhatsApp">💬 WhatsApp</a>
+</body>
+</html>
